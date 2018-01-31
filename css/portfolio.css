@@ -1,0 +1,136 @@
+.container-fluid {
+    margin: 2%;
+}
+
+.top-head {
+    height: 10%;
+}
+
+.logo {
+    margin-top: 25%;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    margin-top: 10%;
+    font-size: 26px;
+
+}
+
+.caption,
+.interest,
+.link {
+    font-size: 12px;
+}
+
+.profile {
+    margin-top: 2%;
+    height: 30%;
+}
+
+.header2,
+.header3,
+.header4,
+.header5 {
+    font-size: 20px;
+}
+
+.about {
+    font-size: 12px;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.about2 {
+    display: none;
+}
+
+.rand-image {
+    width: 100%;
+    height: 100%
+}
+
+footer {
+    margin: 2%;
+}
+
+@media screen and (min-width: 510px) and (max-width: 780px) {
+    .heading {
+        font-size: 36px;
+    }
+
+    .caption,
+    .interest,
+    .link,
+    .about {
+        font-size: 20px;
+    }
+
+    .header2,
+    .header3,
+    .header4,
+    .header5 {
+        font-size: 28px;
+}
+}
+
+@media screen and (min-width: 780px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .about2 {
+        display: block;
+        margin-left: 2%;
+        font-size: 20px;
+    }
+
+    .caption,
+    .interest,
+    .link,
+    .about {
+        font-size: 20px;
+    }
+
+    .header2,
+    .header3,
+    .header4,
+    .header5 {
+        font-size: 28px;
+    }
+
+    .logo {
+        margin-top: 0;
+        width: auto;
+        max-height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
